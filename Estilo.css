@@ -1,0 +1,86 @@
+*{
+ margin: 0 auto;
+}
+
+.TL{
+    font-family:'Gill Sans MT';
+    font-size: 100px;
+    color: rgb(85, 144, 161);
+    text-align: center;
+    padding-top: 30px;
+    -webkit-text-stroke: black;
+    -webkit-text-stroke-width: 3px ;
+}
+
+
+.CXB{
+    flex: 1;
+    display: flex;
+}
+
+.CX{
+    width: 900px;
+    height: 300px;
+    background-color: white;
+    border: solid black 5px;
+    border-radius: 15px 5px 15px 5px;
+    margin-left: 60px;
+    margin-top: 20px;
+    box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.7)
+}
+
+.BT{
+    box-sizing: border-box;
+    width: 300px;
+    height: 80px;
+    background-color: lightcyan;
+    border-radius: 15px 5px 15px 5px;
+    font-family: helvetica;
+    margin-left: 60px;
+    margin-top: 90px;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    border: solid black 5px;
+    box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.7)
+}
+
+.CX2{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border: solid black 5px;
+    border-radius: 15px 5px 15px 5px;
+    margin-top: 60px;
+    margin-right: 60px;
+    box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.7);
+}
+
+.TLC{
+    font-family: 'Gill Sans MT';
+    font-size: 35px;
+    color: rgb(155, 186, 226);
+
+}
+
+.TXTC{
+    font-family: 'Gill Sans MT';
+    font-size: 22px;
+    color: rgb(0, 0, 0);
+
+}
+
+body{
+    background-color: rgb(197, 243, 228);
+}
+
+canvas {
+
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    margin: 0px;
+
+    z-index: -1;
+}
