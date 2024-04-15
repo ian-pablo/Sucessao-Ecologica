@@ -41,7 +41,7 @@ function updateParticles() {
 
     // carrega a imagem
     const img = new Image();
-    img.src = "_____folha.png";
+    img.src = "folhaPart.png";
 
     // Draw and updates every particle in the canvas
     for (const particle of particles) {
