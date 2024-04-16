@@ -67,7 +67,7 @@ function updateParticles() {
 
         // Changes the velocity
         particle.velocity.x += (Math.random() -0.5);
-        particle.velocity.y += (Math.random() * 0.6);
+        particle.velocity.y += ((Math.random() -0.1) * 0.6);
         particle.velocity.x *= 0.95;
         particle.velocity.y *= 0.96;
         
