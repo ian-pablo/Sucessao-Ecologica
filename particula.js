@@ -73,7 +73,7 @@ function updateParticles() {
         
 
         // Desenha uma imagem
-        ctx.drawImage(img, particle.x, particle.y, particle.size * 1.3, particle.size);
+        ctx.drawImage(img, particle.x, particle.y, 30, 47);
     }
 
     // Request other animation frame for this function, so it will repeat forever
